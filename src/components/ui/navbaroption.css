@@ -1,0 +1,41 @@
+.navbaroption{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.navbaroption:hover{
+    opacity: 1;
+}
+
+
+.navbaroption span{
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbaroption span .link {
+    margin-left: 1em;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbaroption img{
+    width: 8px;
+    height: 8px;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}

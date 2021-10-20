@@ -1,0 +1,94 @@
+
+
+.planetsoptions{
+    border: 1px solid gray;
+    padding: 2em;
+    margin-top: 0.5em;
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.planetsoptions ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+
+.planetsoptions ul li{
+    cursor: pointer;
+}
+
+.img_planets{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 200px;
+    height: 200px;
+}
+
+.planetsoptions__main{
+   text-align: center;
+   padding-bottom: 4em;
+}
+
+.planetsoptions__main h2, .planetsoptions__main p, .planetsoptions__main section{
+    margin-top: 2em;
+}
+.planetsoptions__main h2{
+    font-size: 2rem;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+}
+
+.planetsoptions__main p{
+    line-height: 2;
+    font-size: 0.8rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    /* margin: 0 auto; */
+}
+
+.planetsoptions__main .span{
+    margin-top: 1em;
+    opacity: 0.8;
+    font-size: 0.8rem;
+}
+.planetsoptions__main .span:hover{
+    opacity: 1;
+}
+.planetsoptions__main .span a{
+    color: #ccc;
+    font-weight: 700;
+}
+
+.planetsoptions__main section ul li{
+    border: 1px solid gray;
+    width: 90%;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0.8em;
+    font-size: 0.65rem;
+    margin:  0 auto;
+    margin-top: 1em;
+    align-items: center;
+    font-family: 'Spartan', sans-serif;;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+strong{
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.2rem;
+}
+
